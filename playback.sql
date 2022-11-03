@@ -1,6 +1,6 @@
 create table Device (
-	id INT,
-	device_id VARCHAR(50),
+	id INT UNIQUE,
+	device_id VARCHAR(50) UNIQUE,
 	normalized_name VARCHAR(50)
 );
 
